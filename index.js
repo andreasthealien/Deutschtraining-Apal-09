@@ -95,7 +95,7 @@ newNavOption("Farger/farben", "??", "farger", ()=>{
     slideUpAndDown("farger");
 });
 spesificOptionGenerator("Simple farger", "??", "farger", "1", "/otherHTMLpages/ord/farger/simpleFarger/index.html", 200);
-spesificOptionGenerator("Avanserte farger | del 1", "??", "farger", "2", "https://www.w3schools.com", 65);
+spesificOptionGenerator("(currently: template)", "??", "farger", "2", "/otherHTMLpages/wordTemplate/index.html", 65);//Avanserte farger | del 1
 spesificOptionGenerator("Avanserte farger | del 2", "??", "farger", "3", "https://www.w3schools.com", 65);
 
 
