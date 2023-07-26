@@ -1,0 +1,156 @@
+/*
+COLOR THEME:
+#6d6860
+#F4EEE0
+*/
+
+body{
+    margin: 0px;
+    background-color: #F4EEE0;
+    margin-bottom: 200px;
+}
+
+
+
+/*----------------------- TOP DIV/HEADERS -----------------------*/
+#header{
+    padding: 40px;
+    padding-top: 30px;
+    background-color: #6d6860;
+}
+
+#upper-header{
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.headers-top{
+    margin: 0px;
+    font-family: sans-serif;
+    color: #F4EEE0;
+}
+
+/*----------------------- NAVIGATION -----------------------*/
+
+#navigation{
+    width: 500px;
+    margin: 0px auto;
+}
+#navigation2{
+    width: 500px;
+    margin: 0px auto;
+}
+#navigation3{
+    width: 500px;
+    margin: 0px auto;
+}
+
+
+#farger{
+    margin-top: 20px;
+}
+
+.newNavOptionClass{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #6d6860;
+    border-radius: 9px;
+    color: #f9f5ee;
+    font-size: 35px;
+    padding: 0px 9px;
+    margin-top: 20px;
+    z-index: 1;
+    user-select: none;
+}
+
+.newNavOptionClass p{
+    margin: 0px;
+}
+
+.newNavOptionClass hr{
+    visibility: hidden;
+}
+
+.newNavOptionClass:hover{
+    background-color: #58544d;
+    cursor: pointer;
+    height: 41px;
+    box-shadow: 1px 1px 2px #222120;
+}
+
+
+.dropDownBox{
+    display: block;
+    position: relative;
+    background-color: white;
+    bottom: 13px;
+    border-radius: 9px;
+    padding: 17px 9px;
+    padding-bottom: 5px;
+    user-select: none;
+}
+
+.dropDownBoxSetting{
+    display: none;
+}
+
+.the500pixel{
+    width: 480px;
+    height: 35px;
+    justify-content: space-between;
+    display: flex;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.the500pixel p{
+    margin: 0px;
+}
+.the500pixel hr{
+    width: 200px;
+    border: black;
+    border-top-style: dotted;
+    border-top-width: 4px;
+}
+
+.the500pixel:hover{
+    background-color: rgb(201, 201, 201);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.theHRs{
+    margin: 50px 35px; 
+    color: #6d6860;
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    font-size: 29px;
+    font-weight: 900;
+}
+
+#theHR1:after{
+    content: 'Ord trening';
+    background: #F4EEE0;
+    padding: 0 4px;
+    position: relative;
+    top: -21px;
+}
+#theHR2:after{
+    content: 'Grammatikk';
+    background: #F4EEE0;
+    padding: 0 4px;
+    position: relative;
+    top: -21px;
+}
+#theHR3:after{
+    content: 'Uttale';
+    background: #F4EEE0;
+    padding: 0 4px;
+    position: relative;
+    top: -21px;
+}
