@@ -1,5 +1,25 @@
 
 
+/*----------------------------- REMOVE HTML AND CSS FUNCTIONS -----------------------------*/
+function removeTheHRS(){
+    var loadUpScreenSize = window.innerWidth;
+    if (loadUpScreenSize<=574){
+        console.log("yes")
+        var listOfHRS = document.querySelectorAll(".fuckingHRShateThem");
+        listOfHRS.forEach((element)=>{
+            element.remove();
+        })
+    }
+}
+function only500pixelOrBiggerSupported(){
+    var loadUpScreenSize=window.innerWidth;
+    if(loadUpScreenSize<=500){
+        
+    }
+}
+
+
+
 /*----------------------------- GENERATE HTML AND CSS FUNCTIONS -----------------------------*/
 function newNav3Option(category, totalAmountOfWords, theID, dropDownMenu) {
     var newCateg = document.createElement("div");
@@ -69,12 +89,11 @@ function newNavOption(category, totalAmountOfWords, theID, dropDownMenu) {
 function spesificOptionGenerator(spesificCategoryName, amountOfWords, idOfAlmostParent, numberOfID, whereItWillSendYou, lengthOfHR){
     var helpPlace = idOfAlmostParent
     var placement = document.querySelector("#"+helpPlace+"SlideDownDiv"); //the placement of spesific category
-    console.log("#"+helpPlace+"SlideDownDiv")
 
     var newSpesificOption = document.createElement("div"); //creates new spesific category
     newSpesificOption.setAttribute("id", idOfAlmostParent+numberOfID);//choose the ID
     newSpesificOption.classList.add("the500pixel");
-    newSpesificOption.innerHTML="<p>"+spesificCategoryName+"</p><hr style='width: "+lengthOfHR+"px;'><p>"+amountOfWords+"</p>";
+    newSpesificOption.innerHTML="<p>"+spesificCategoryName+"</p><hr class='fuckingHRShateThem' style='width: "+lengthOfHR+"px;'><p>"+amountOfWords+"</p>";
 
 
     placement.appendChild(newSpesificOption);
@@ -126,3 +145,6 @@ spesificOptionGenerator("Digraf/digraph", "", "bokstaver", "2", "https://www.w3s
 //Digraf/digraph
 
 
+removeTheHRS();
+window.addEventListener("resize", removeTheHRS);
+only500pixelOrBiggerSupported();

@@ -10,7 +10,9 @@ body{
     margin-bottom: 200px;
 }
 
-
+#everything{
+    width: 100%;
+}
 
 /*----------------------- TOP DIV/HEADERS -----------------------*/
 #header{
@@ -28,6 +30,12 @@ body{
     margin: 0px;
     font-family: sans-serif;
     color: #F4EEE0;
+}
+.black{
+    background-color:#333;
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif;
 }
 
 /*----------------------- NAVIGATION -----------------------*/
@@ -154,3 +162,118 @@ body{
     position: relative;
     top: -21px;
 }
+
+@media (max-width: 813px) {
+    #upper-header{
+        font-size: 80px;
+    }
+    #lower-header{
+        font-size: 26px;
+    }
+
+}
+@media (max-width: 662px) {
+    #upper-header{
+        font-size: 70px;
+    }
+    #lower-header{
+        font-size: 23px;
+    }
+
+}
+@media (max-width: 578px) {
+    #upper-header{
+        font-size: 55px;
+    }
+    #lower-header{
+        font-size: 19px;
+    }
+
+}
+@media (max-width: 532px) {/*518*/
+    /*----------- headers -----------*/
+    #upper-header{
+        font-size: 50px;
+    }
+    #lower-header{
+        font-size: 17px;
+    }
+
+    /*----------- practise -----------*/
+    .newNavOptionClass{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .the500pixel{
+        width: 350px;
+    }
+    .dropDownBox{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*----------- END -----------*/
+}
+@media (max-width: 518px) {/*518*/
+    /*----------- headers -----------*/
+    #upper-header{
+        font-size: 37px;
+    }
+    #lower-header{
+        font-size: 16px;
+    }
+
+    /*----------- practise -----------*/
+    .newNavOptionClass{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .the500pixel{
+        width: 350px;
+    }
+    .dropDownBox{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*----------- END -----------*/
+
+}
+@media (max-width: 505px) {/*518*/
+    /*----------- headers -----------*/
+    #upper-header{
+        font-size: 32px;
+    }
+    #lower-header{
+        font-size: 13px;
+    }
+
+    /*----------- practise -----------*/
+    .newNavOptionClass{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .the500pixel{
+        width: 350px;
+    }
+    .dropDownBox{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*----------- END -----------*/
+
+}
+
+
+
+/*
+
+.newNavOptionClass{
+    width: 482px;
+}
+
+*/

@@ -33,11 +33,12 @@ body{
 }
 #returnTextSpan{
     position: relative;
-    bottom: 20px;
+    bottom: 18px;
     color: #F4EEE0;
     font-family: sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
+    font-size: 20px;
 }
 #returnText{
     position: relative;
@@ -49,12 +50,14 @@ body{
     top: 75px;
     user-select: none;
     border: solid #58544e;
-    padding: 5px 15px;
+    padding: 5px 15px 5px 13px;
     border-radius: 25px;
     
 }
 #returnDiv:hover{
     cursor: pointer;
+    background-color: #5f5b55;
+    box-shadow: 3px 3px 2px black;
 }
 
 .headers-top{
